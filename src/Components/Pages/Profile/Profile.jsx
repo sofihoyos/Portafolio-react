@@ -16,6 +16,12 @@ export const Profile = () => {
     <>
     <section className="flex flex-col place-items-center my-8">
       <h1 className="font-bold text-5xl">MI PERFIL</h1>
+      <div className="w-75 h-50 flex flex-col text-center rounded-lg my-5 shadow-lg shadow-fuchsia-300 border-1 border-gray-300 place-content-center"> 
+        <p className="mx-2">Soy estudiante del tecnólogo Análisis y desarrollo de software en el Sena sede comercio y turismo, 
+          he adquirido conocimientos en desarrollo de software y análisis de datos, varios lenguajes. 
+          Me destaco por mi compromiso y proactividad
+        </p>
+      </div>
       <div className="w-72 h-40 flex flex-col text-center rounded-lg my-5 shadow-lg shadow-fuchsia-300 border-1 border-gray-300">
         <h3 className="font-bold text-lg my-3">INFORMACION BASICA</h3>
         <p className="flex items-center gap-2 mx-3">
