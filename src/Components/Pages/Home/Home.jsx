@@ -18,7 +18,7 @@ export const Home = () => {
 
       <div className="w-full place-content-center place-items-center" >
         <img 
-          src={me}
+          src={foto}
           alt="Me"
           className="w-80 h-80 rounded-full my-5 shadow-lg shadow-gray-500   2xl:w-120 2xl:h-120" 
         />
