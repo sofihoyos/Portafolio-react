@@ -10,8 +10,6 @@ import { Profile } from './Components/Pages/Profile/Profile';
 import { Studies } from './Components/Pages/Studies/Studies';
 
 
-
-
 export const App = () => {
     return (
         <>

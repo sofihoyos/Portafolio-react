@@ -4,9 +4,11 @@ export const Studies = () => {
   return (
 
     <>
-    <section className="flex flex-col place-items-center my-8">
+    <section className="flex flex-col place-items-center my-8 md:mb-23">
       
-      <h1 className="font-bold text-4xl">MIS ESTUDIOS</h1>
+      <h1 className="font-bold text-4xl mb-15">MIS ESTUDIOS</h1>
+
+      <div className="md:grid md:grid-cols-2 md:gap-15 lg:grid-cols-4">
 
       <div className="w-60 h-25 flex flex-col text-center rounded-lg my-5 shadow-lg shadow-fuchsia-300 border-1 border-gray-300 place-content-center"> 
         <h4 className="font-semibold">2012-2014</h4>
@@ -37,6 +39,9 @@ export const Studies = () => {
         <p> Tecnologo en Desarrollo de Software <br />
         Sena sede Comercio y Turismo </p>
       </div>
+
+      </div>
+
 
     </section>
     </>
